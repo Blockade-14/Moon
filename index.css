@@ -1,0 +1,153 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.viewport{
+    width: 100%;
+    position: relative;
+}
+
+.viewport img{
+    max-width: 100%;
+}
+
+.container{
+    background-color: rgba(1, 63, 55, 0.527);
+}
+
+.position{
+    position: relative;
+}
+
+.gradient{
+    background-image: linear-gradient(0deg, rgba(1, 63, 55, 0.527), transparent, transparent);
+}
+
+.margin-top-3{
+    margin-top: 3%;
+}
+
+.margin-right-3{
+    margin-right: 3%;
+}
+
+.text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text *{
+    flex-direction: column;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.text1{
+    color: rgb(46, 46, 49);
+    background-color: rgba(255, 255, 255, 0.288);
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.img2{
+    flex: none;
+    position: relative;
+    height: 50%;
+    padding: 4%;
+}
+
+.padding-left{
+    padding: 0% 0% 0% 4%;
+}
+
+.padding-right{
+    padding: 0% 4% 0% 0%;
+}
+
+.text-size{
+    font-size: 18px;
+}
+
+.padding-text{
+    padding: 0% 4%;
+}
+
+.img3{
+    flex: none;
+    position: relative;
+    max-height: 20%;
+    padding: 4%;
+}
+
+.display{
+    flex: none;
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 50px;
+    margin: 0;
+    background-image: linear-gradient(0deg, black, transparent);
+}
+
+.paddingg{
+    padding: 0% 4% 0% 4%;
+
+}
+
+@media screen and (max-width: 670px) {
+    .mobile {
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .imgm{
+        align-items: center;
+    }
+
+    {
+    
+        
+    }
+    
+    }
+    
+    .text1{
+        font-size: 2em;
+    }
+
+} 
+
+@media screen and (max-width: 370px) {
+    .text1 {
+      font-size: 1em;
+    }
