@@ -136,6 +136,7 @@ body *{
 
 .copyright{
     justify-content: end;
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 670px) {
