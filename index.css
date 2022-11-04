@@ -122,7 +122,20 @@ body *{
 
 .paddingg{
     padding: 0% 4% 0% 4%;
+}
 
+.footer{
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    padding: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.copyright{
+    justify-content: end;
 }
 
 @media screen and (max-width: 670px) {
@@ -133,16 +146,17 @@ body *{
     .imgm{
         align-items: center;
     }
-
-    {
-    
-        
-    }
-    
-    }
     
     .text1{
         font-size: 2em;
+    }
+
+    #artCont1, #artCont2{
+        flex-direction: column;
+    }
+
+    .padding-right{
+        padding: 0% 4% 0% 4%;
     }
 
 } 
@@ -151,3 +165,5 @@ body *{
     .text1 {
       font-size: 1em;
     }
+
+}
